@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Elizabeth Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elizabeth Canta</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f7f8fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #4f46e5;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 15px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, I'm Elizabeth 👋</h1>
-  <p>Computer Science student at McMaster University.</p>
+
+  <header>
+    <h1>Elizabeth Canta 👋</h1>
+    <p>Computer Science Student @ McMaster University</p>
+    <p>Aspiring Software Developer | Co-op 2030</p>
+  </header>
+
+  <div class="container">
+
+    <h2>💻 About Me</h2>
+    <div class="card">
+      <p>
+        I'm a Computer Science student at McMaster University with experience in
+        C, Java, Python, and web development. I enjoy building interactive
+        applications and continuously improving my problem-solving skills.
+      </p>
+    </div>
+
+    <h2>🛠️ Skills</h2>
+    <div class="card">
+      <p><strong>Languages:</strong> C, Java, Python, JavaScript, Haskell (basic)</p>
+      <p><strong>Web:</strong> HTML, CSS, DOM manipulation</p>
+      <p><strong>Concepts:</strong> Data structures (basic), Big-O, debugging</p>
+    </div>
+
+    <h2>🚀 Projects</h2>
+    <div class="card">
+      <p><strong>Cat Petting Web App</strong></p>
+      <p>Interactive browser game built with JavaScript and DOM manipulation.</p>
+      <p class="links">
+        <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+      </p>
+    </div>
+
+    <h2>📫 Contact</h2>
+    <div class="card links">
+      <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+      <a href="mailto:your.email@email.com">Email</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Elizabeth Canta
+  </footer>
+
 </body>
 </html>
