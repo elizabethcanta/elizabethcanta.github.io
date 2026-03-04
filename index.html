@@ -1,57 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elizabeth Canta</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elizabeth Canta — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/app.js"></script>
 </head>
 <body>
+  <div class="shell">
+    <div class="frame">
+      <header class="topbar">
+        <div class="brand">ELIZABETH CANTA</div>
 
-  <header>
-    <h1>Elizabeth Sofia Canta Ortega</h1>
-    <p>Computer Science Student @ McMaster University</p>
-    <p>Aspiring Software Developer | Co-op 2030</p>
-  </header>
+        <div class="controls">
+          <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+            <span id="langBtn">EN</span>
+          </button>
+          <!-- optional: small icon button for fun -->
+          <button class="icon-btn" title="Just vibes" aria-label="Heart">
+            ♥
+          </button>
+        </div>
+      </header>
 
-  <div class="container">
+      <main class="main">
+        <section class="hero">
+          <h1 class="hi" data-i18n="home_title">Hello.</h1>
+          <h2 class="subhi" data-i18n="home_intro">I am Elizabeth.</h2>
 
-    <h2>💻 About Me</h2>
-    <div class="card">
-      <p>
-        I'm a Computer Science student at McMaster University with experience in
-        C, Java, Python, and web development. I enjoy building interactive
-        applications and continuously improving my problem-solving skills.
-      </p>
+          <p class="subtitle" data-i18n="home_blurb">
+            I’m a Computer Science student building projects in C, web development, and more...
+          </p>
+
+          <div class="socials" aria-label="Social links">
+            <!-- Replace href with your real links -->
+            <a class="social-circle" href="https://github.com/elizabethcanta" target="_blank" rel="noreferrer">GH</a>
+            <a class="social-circle" href="#" target="_blank" rel="noreferrer">IN</a>
+            <a class="social-circle" href="mailto:your@email.com">EM</a>
+          </div>
+        </section>
+
+        <aside class="navpanel">
+          <div class="nav-title" data-i18n="nav_label">Navigation</div>
+
+          <a class="navlink" href="about.html" data-i18n="nav_about">About me</a>
+          <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
+
+          <!-- Resume download -->
+          <a class="resume-btn" href="resume.pdf" download data-i18n="nav_resume">
+            Resume (PDF)
+          </a>
+
+          <p class="small-note">
+            Tip: put your real resume file in this folder and name it <strong>resume.pdf</strong>.
+          </p>
+        </aside>
+      </main>
     </div>
-
-    <h2>🛠️ Skills</h2>
-    <div class="card">
-      <p><strong>Languages:</strong> C, Java, Python, JavaScript, Haskell (basic)</p>
-      <p><strong>Web:</strong> HTML, CSS, DOM manipulation</p>
-      <p><strong>Concepts:</strong> Data structures (basic), Big-O, debugging</p>
-    </div>
-
-    <h2>🚀 Projects</h2>
-    <div class="card">
-      <p><strong>Cat Petting Web App</strong></p>
-      <p>Interactive browser game built with JavaScript and DOM manipulation.</p>
-      <p class="links">
-        <a href="https://github.com/elizabethcanta" target="_blank">GitHub</a>
-      </p>
-    </div>
-
-    <h2>📫 Contact</h2>
-    <div class="card links">
-      <a href="https://github.com/elizabethcanta" target="_blank">GitHub</a>
-      <a href="mailto:ecanta290@gmail.com">Email</a>
-    </div>
-
   </div>
-
-  <footer>
-    © 2026 Elizabeth Canta
-  </footer>
-
 </body>
 </html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Elizabeth Canta</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <div class="frame">
+      <header class="topbar">
+        <div class="brand">ELIZABETH CANTA</div>
+        <div class="controls">
+          <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+            <span id="langBtn">EN</span>
+          </button>
+          <a class="icon-btn" href="index.html" title="Home" aria-label="Home">⌂</a>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <h1 class="hi" data-i18n="projects_title">Projects</h1>
+          <p class="subtitle" data-i18n="projects_body">
+            Add 2–4 projects with short descriptions...
+          </p>
+
+          <!-- Example project cards (simple) -->
+          <div style="display:grid; gap:14px; margin-top:18px; max-width: 780px;">
+            <div style="border: var(--border); border-radius: 16px; padding: 14px; background: transparent;">
+              <div style="color: var(--accent); font-weight: 800;">Project Title</div>
+              <div style="color: var(--muted); margin-top:6px; line-height:1.6;">
+                1–2 lines about what it does, what you used, and what you learned.
+              </div>
+              <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;">
+                <a class="navlink" style="width:auto;" href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="navlink" style="width:auto;" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+
+            <div style="border: var(--border); border-radius: 16px; padding: 14px;">
+              <div style="color: var(--accent); font-weight: 800;">Another Project</div>
+              <div style="color: var(--muted); margin-top:6px; line-height:1.6;">
+                Short description here.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="navpanel">
+          <div class="nav-title" data-i18n="nav_label">Navigation</div>
+
+          <a class="navlink" href="index.html">Home</a>
+          <a class="navlink" href="about.html" data-i18n="nav_about">About me</a>
+          <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
+          <a class="resume-btn" href="resume.pdf" download data-i18n="nav_resume">Resume (PDF)</a>
+        </aside>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
