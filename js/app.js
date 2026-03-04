@@ -3,7 +3,7 @@ const i18n = {
     home_title: "Hello.",
     home_intro: "I am Elizabeth.",
     home_blurb:
-      "I’m a Computer Science student building projects in C, web development, and more. This site is my little hub for what I’m learning and building.",
+      "I’m a Computer Science student building projects in Python, C, web development, and more. This site is my little hub for what I’m learning and building.",
     nav_label: "Navigation",
     nav_about: "About me",
     nav_projects: "Projects",
