@@ -291,3 +291,14 @@ body::before {
     max-height: 320px;
   }
 }
+
+
+
+.social-circle i {
+  font-size: 26px;
+}
+
+.social-circle:hover {
+  transform: translateY(-3px);
+  background: rgba(207,167,255,0.15);
+}
