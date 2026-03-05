@@ -14,7 +14,7 @@ const i18n = {
       "Write a short paragraph about who you are, what you’re studying, and what you’re looking for (internships, co-op, etc.).",
     projects_title: "Projects",
     projects_body:
-      "Add 2–4 projects with short descriptions, tools used, and links to GitHub/live demos."
+      "Projects I'm working on or have completed. Click for details and links to code! (More coming soon...)"
   },
   es: {
     home_title: "Hola.",
@@ -31,7 +31,7 @@ const i18n = {
       "Escribe un párrafo corto sobre ti: qué estudias, qué te interesa y qué estás buscando (internships, co-op, etc.).",
     projects_title: "Proyectos",
     projects_body:
-      "Agrega 2–4 proyectos con descripciones cortas, tecnologías usadas y enlaces a GitHub/demos."
+      "Proyectos en los que estoy trabajando o que he completado. ¡Haz clic para obtener detalles y enlaces al código! (Más proyectos próximamente...)"
   }
 };
 
