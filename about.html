@@ -3,88 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="About Elizabeth Canta Ortega, a computer science student with an interest in software engineering, web development, and internships." />
-  <title>About | Elizabeth Canta Ortega</title>
+  <title>About — Elizabeth Canta</title>
   <link rel="stylesheet" href="css/styles.css" />
   <script defer src="js/app.js"></script>
 </head>
 <body>
   <div class="shell">
-    <header class="site-header">
-      <div class="brand-wrap">
-        <div class="brand-mark">EC</div>
-        <div class="brand-text">
-          <span class="brand-name">Elizabeth Canta Ortega</span>
-          <span class="brand-subtitle">Computer Science Student</span>
+    <div class="frame">
+      <header class="topbar">
+        <div class="brand">ELIZABETH CANTA ORTEGA</div>
+        <div class="controls">
+          <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+            <span id="langBtn">EN</span>
+          </button>
+          <a class="icon-btn" href="index.html" title="Home" aria-label="Home">⌂</a>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="about">
+  <div class="about-card">
+    <div class="about-left">
+      <img class="about-photo" src="images/portfolio_img.jpg" alt="Photo of Elizabeth Canta" />
+
+      <div class="about-facts">
+        <div class="about-name">Elizabeth Sofia Canta Ortega</div>
+        <div class="about-role">Computer Science student</div>
+
+        <ul class="fact-list">
+          <li>📍 Hamilton, ON, Canada</li>
+          <li>🎓 McMaster University</li>
+          <li>💻 C • Java • Python • JavaScript</li>
+          <li>✨ Interests: Web Dev, Systems</li>
+        </ul>
+
+        <div class="about-actions">
+          <a class="navlink" style="width:auto;" href="resume/english_resume.pdf" download>Resume</a>
+          <a class="navlink" style="width:auto;" href="https://github.com/elizabethcanta" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="navlink" style="width:auto;" href="https://www.linkedin.com/in/elizabeth-canta-ortega" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
+    </div>
 
-      <nav class="main-nav" aria-label="Main navigation">
-        <a class="navlink" href="index.html" data-i18n="nav_home">Home</a>
-        <a class="navlink" href="about.html" data-i18n="nav_about">About</a>
-        <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
-        <a class="resume-btn" href="resume/english_resume.pdf" download data-i18n="nav_resume">Resume</a>
-      </nav>
+    <div class="about-right">
+      <h1 class="hi" style="margin-top:0;" data-i18n="about_title">About me</h1>
 
-      <div class="header-actions">
-        <button id="langToggle" class="lang-btn" aria-label="Toggle language">
-          <span id="langBtn">EN</span>
-        </button>
+      <p class="subtitle">
+        I’m a Computer Science student who loves building small projects that feel polished and useful.
+        Right now I’m focused on strengthening my C fundamentals, building web apps, and getting comfortable
+        with debugging + clean code.
+      </p>
+
+      <div class="about-section">
+        <div class="about-section-title">What I’m looking for</div>
+        <ul class="about-bullets">
+          <li>Co-op / internship opportunities</li>
+          <li>Projects where I can ship features and learn fast</li>
+          <li>Teams that value mentorship + good engineering habits</li>
+        </ul>
       </div>
-    </header>
 
-    <main class="page page-about">
-      <section class="panel about-card">
-        <div class="about-left">
-          <img class="about-photo" src="images/portfolio_img.jpg" alt="Photo of Elizabeth Canta" />
+      <div class="about-section">
+        <div class="about-section-title">Currently working on</div>
+        <ul class="about-bullets">
+          <li>Portfolio website + project writeups</li>
+          <li>C programming</li>
+          <li>Small web projects to practice HTML/CSS/JS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-          <div class="about-facts">
-            <div class="about-name">Elizabeth Sofia Canta Ortega</div>
-            <div class="about-role" data-i18n="about_role">Computer Science student</div>
+        <aside class="navpanel">
+          <div class="nav-title" data-i18n="nav_label">Navigation</div>
 
-            <ul class="fact-list">
-              <li>📍 Hamilton, ON, Canada</li>
-              <li>🎓 McMaster University</li>
-              <li>💻 C • Java • Python • JavaScript</li>
-              <li>✨ Web development • Systems • UX thinking</li>
-            </ul>
-
-            <div class="about-actions">
-              <a class="navlink action-link" href="resume/english_resume.pdf" download>Resume</a>
-              <a class="navlink action-link" href="https://github.com/elizabethcanta" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="navlink action-link" href="https://www.linkedin.com/in/elizabeth-canta-ortega" target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="about-right">
-          <p class="eyebrow" data-i18n="about_eyebrow">Profile</p>
-          <h1 class="about-title" data-i18n="about_title">About me</h1>
-
-          <p class="about-copy" data-i18n="about_intro">
-            I’m a Computer Science student who enjoys turning ideas into polished, useful software. I’m especially interested in web development, systems fundamentals, and building projects that combine clean design with practical problem solving.
-          </p>
-
-          <div class="about-section">
-            <h2 class="about-section-title" data-i18n="about_looking_for_label">What I’m looking for</h2>
-            <ul class="about-bullets">
-              <li data-i18n="about_looking_for_1">Co-op and internship opportunities</li>
-              <li data-i18n="about_looking_for_2">Projects where I can ship real features and keep learning</li>
-              <li data-i18n="about_looking_for_3">Teams that value mentorship and thoughtful engineering</li>
-            </ul>
-          </div>
-
-          <div class="about-section">
-            <h2 class="about-section-title" data-i18n="about_currently_label">Currently working on</h2>
-            <ul class="about-bullets">
-              <li data-i18n="about_currently_1">Refining this portfolio and project storytelling</li>
-              <li data-i18n="about_currently_2">Strengthening my C fundamentals and debugging skills</li>
-              <li data-i18n="about_currently_3">Building small front-end projects to improve UI and UX</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
+          <a class="navlink" href="index.html">Home</a>
+          <a class="navlink" href="about.html" data-i18n="nav_about">About me</a>
+          <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
+          <a class="resume-btn" href="resume/english_resume.pdf" download data-i18n="nav_resume">
+            Resume (PDF)
+          </a>
+        </aside>
+      </main>
+    </div>
   </div>
 </body>
 </html>
