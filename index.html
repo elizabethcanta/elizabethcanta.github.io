@@ -3,61 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Elizabeth Canta — Portfolio</title>
+  <meta name="description" content="Elizabeth Canta Ortega's portfolio: computer science student, software projects, and professional background." />
+  <title>Elizabeth Canta Ortega | Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script defer src="js/app.js"></script>
 </head>
 <body>
   <div class="shell">
-    <div class="frame">
-      <header class="topbar">
-        <div class="brand">ELIZABETH CANTA ORTEGA</div>
-
-        <div class="controls">
-          <button id="langToggle" class="lang-btn" aria-label="Toggle language">
-            <span id="langBtn">EN</span>
-          </button>
+    <header class="site-header">
+      <div class="brand-wrap">
+        <div class="brand-mark">EC</div>
+        <div class="brand-text">
+          <span class="brand-name">Elizabeth Canta Ortega</span>
+          <span class="brand-subtitle">Computer Science Student</span>
         </div>
-      </header>
+      </div>
 
-      <main class="main">
-        <section class="hero">
-          <h1 class="hi" data-i18n="home_title">Hello.</h1>
-          <h2 class="subhi" data-i18n="home_intro">I am Elizabeth.</h2>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="navlink" href="index.html" data-i18n="nav_home">Home</a>
+        <a class="navlink" href="about.html" data-i18n="nav_about">About</a>
+        <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
+        <a class="resume-btn" href="resume/english_resume.pdf" download data-i18n="nav_resume">Resume</a>
+      </nav>
 
-          <p class="subtitle" data-i18n="home_blurb">
-            I’m a Computer Science student building projects in...
-          </p>
-          
-          <div class="socials" aria-label="Social links">
-          <a class="social-circle" href="https://github.com/elizabethcanta" target="_blank" rel="noreferrer">
+      <div class="header-actions">
+        <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+          <span id="langBtn">EN</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page page-home">
+      <section class="panel hero-panel">
+        <p class="eyebrow">Available for internships • 2026</p>
+        <h1 class="hero-title" data-i18n="home_title">Hello, I’m Elizabeth.</h1>
+        <p class="hero-copy" data-i18n="home_intro">
+          I’m a Computer Science student building thoughtful software in web development, systems, and problem solving.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-btn" href="projects.html" data-i18n="home_projects_cta">View projects</a>
+          <a class="secondary-btn" href="about.html" data-i18n="home_about_cta">Learn more</a>
+        </div>
+
+        <div class="socials" aria-label="Social media links">
+          <a class="social-circle" href="https://github.com/elizabethcanta" target="_blank" rel="noreferrer" aria-label="GitHub">
             <i class="fa-brands fa-github"></i>
           </a>
-
-          <a class="social-circle" href="https://www.linkedin.com/in/elizabeth-canta-ortega" target="_blank" rel="noreferrer">
+          <a class="social-circle" href="https://www.linkedin.com/in/elizabeth-canta-ortega" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-
-          <a class="social-circle" href="mailto:ecanta290@gmail.com">
+          <a class="social-circle" href="mailto:ecanta290@gmail.com" aria-label="Email">
             <i class="fa-solid fa-envelope"></i>
           </a>
+        </div>
+      </section>
+
+      <aside class="info-column">
+        <div class="panel status-card">
+          <p class="card-label" data-i18n="status_label">Currently</p>
+          <h2 data-i18n="status_title">Building polished, useful projects.</h2>
+          <ul class="mini-list">
+            <li data-i18n="status_item_1">Web development</li>
+            <li data-i18n="status_item_2">C and systems fundamentals</li>
+            <li data-i18n="status_item_3">Problem solving and clean code</li>
+          </ul>
+        </div>
+
+        <div class="panel stack-card">
+          <p class="card-label" data-i18n="stack_label">Core stack</p>
+          <div class="tag-list">
+            <span>C</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
           </div>
-
-        </section>
-
-        <aside class="navpanel">
-          <div class="nav-title" data-i18n="nav_label">Navigation</div>
-
-          <a class="navlink" href="about.html" data-i18n="nav_about">About me</a>
-          <a class="navlink" href="projects.html" data-i18n="nav_projects">Projects</a>
-          <a class="resume-btn" href="resume/english_resume.pdf" download data-i18n="nav_resume">
-            Resume (PDF)
-          </a>
-
-        </aside>
-      </main>
-    </div>
+        </div>
+      </aside>
+    </main>
   </div>
 </body>
 </html>
